@@ -1,0 +1,38 @@
+.card {
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  box-shadow: 0px 1px 0px rgba(136, 136, 136, 0.57);
+  border-radius: 5px;
+  height: 250px;
+  margin: 100px;
+  width: 200px;
+}
+
+.powerWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.avatarWrapper {
+  position: relative;
+  height: 38%;
+  width: 100%;
+}
+.avatar {
+  position: absolute;
+  bottom: 13px;
+  left: 46px;
+}
+
+.summary {
+  border-style: solid;
+  border-color: lightgrey;
+  border-bottom-color: white;
+  border-width: 1px;
+  border-radius: 3px 3px 0px 0px;
+  margin: 0px 4px;
+  width: 95%;
+  height: 51%;
+}
